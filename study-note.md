@@ -19,7 +19,10 @@ see Reader-Backend Bootcamp - Day4 "advanced API" - "Security" - start from "Ini
   @ $ npm install pg
   @ $ npx sequelize-cli init
 
-* When set up ElephantSQL, remember to alter two files:
+* When set up ElephantSQL, remember to alter two files:(check: Day1 "Databases and ORMs"-"Sequelize ORM"-"Connecting to Database")
 
 1. config/config.json
 2. models/index.js
+
+- Example of adding constrains to attributes of a model:
+  email: {type: DataTypes.STRING, allowNull: false, unique: true },
