@@ -8,7 +8,7 @@ see Reader-Backend Bootcamp - Day4 "advanced API" - "Security" - start from "Ini
   const app = express();
   const port = process.env.PORT || 4000;
 
-## app.listen(port, () => console.log("listening on port " + port));
+  app.listen(port, () => console.log("listening on port " + port));
 
 -
 - //set up Sequelize, Sequelize-cli
@@ -18,3 +18,8 @@ see Reader-Backend Bootcamp - Day4 "advanced API" - "Security" - start from "Ini
   @ $ npm install sequelize sequelize-cli
   @ $ npm install pg
   @ $ npx sequelize-cli init
+
+* When set up ElephantSQL, remember to alter two files:
+
+1. config/config.json
+2. models/index.js
