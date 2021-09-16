@@ -26,3 +26,6 @@ see Reader-Backend Bootcamp - Day4 "advanced API" - "Security" - start from "Ini
 
 - Example of adding constrains to attributes of a model:
   email: {type: DataTypes.STRING, allowNull: false, unique: true },
+-
+-
+-
